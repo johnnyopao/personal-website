@@ -4,11 +4,12 @@
   "description": "Personal website for Johnny Opao",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/http-server"
+    "start": "./node_modules/.bin/reload -b"
   },
   "author": "Johnny Opao",
   "license": "ISC",
-  "dependencies": {
-    "http-server": "^0.10.0"
+  "dependencies": {},
+  "devDependencies": {
+    "reload": "^1.1.5"
   }
 }
