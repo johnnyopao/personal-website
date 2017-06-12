@@ -1,0 +1,14 @@
+{
+  "name": "www.johnnyopao.com",
+  "version": "0.0.1",
+  "description": "Personal website for Johnny Opao",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server"
+  },
+  "author": "Johnny Opao",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

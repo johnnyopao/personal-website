@@ -2,10 +2,21 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 15px 0px;
 }
 
 h1 {
   font-family: bungee, sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 27px;
+  margin: 0;
+  line-height: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  margin: 0;
 }
