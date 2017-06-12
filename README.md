@@ -18,3 +18,4 @@ It's only for local development. With a dev server I can auto reload and serve u
 * Add links to github, and other social sites
 * Deploy script
   * Needs to invalidate cache
+* Configure naked domain
