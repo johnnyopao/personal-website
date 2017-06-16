@@ -4,7 +4,7 @@
   "description": "Personal website for Johnny Opao",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/reload -b"
+    "start": "./node_modules/.bin/reload -b -p 8282"
   },
   "author": "Johnny Opao",
   "license": "ISC",
