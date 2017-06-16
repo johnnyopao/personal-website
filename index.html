@@ -70,5 +70,20 @@
       </p>
     </div>
   </section>
+  <script>
+    var headerElm;
+
+    function onLoad() {
+      headerElm = document.getElementsByTagName('header')[0];
+      adjustHeader();
+    }
+
+    function adjustHeader() {
+      headerElm.style.height = window.innerHeight + 'px';
+    };
+
+    document.addEventListener('DOMContentLoaded', onLoad, false);
+    window.addEventListener("resize", adjustHeader);
+  </script>
 </body>
 </html>
