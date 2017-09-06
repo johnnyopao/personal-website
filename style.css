@@ -3,11 +3,6 @@ html {
   color: #2f2f2f;
 }
 
-html {
-  background-color: #5ac3bf;
-  color: #2f2f2f;
-}
-
 body {
   margin: 0;
 }
@@ -22,25 +17,25 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #3b2c4e;
-  color: #fff;
+  color: #444;
+  background-color: #fff;
 }
 
-/*header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #5ac3bf;
-  color: #fff;
-}*/
+html,
+body,
+header {
+  width: 100%;
+  height: 100%;
+}
 
-header > div{
+header > div {
   margin-top: 20px;
 }
 
-p, body {
-  font-family: 'Montserrat', sans-serif;
+p,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
 }
 
 p {
@@ -49,12 +44,15 @@ p {
 
 h1 {
   color: #292929;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 35px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 48px;
+  margin: 0;
 }
 
 h2 {
-  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 7px;
+  margin-left: 7px;
+  font-family: "Titillium Web", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
@@ -63,7 +61,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 100;
   margin: 0;
@@ -71,7 +69,8 @@ h3 {
 
 section {
   display: flex;
-  color: #585858
+  color: #585858;
+  border-top: 1px solid #bfbfbf;
 }
 
 .hero {
@@ -91,9 +90,29 @@ section {
   background-color: #a5eef3;
 }
 
-.full-pane{
+.full-pane {
   margin: 50px;
+  margin-bottom: 80px;
   width: 100vw;
+}
+
+.flex-row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-group {
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+.tech {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.sub-tech {
+  margin: 0;
 }
 
 .cta {
@@ -122,7 +141,7 @@ section {
   color: #fff;
 }
 
-.medium-link {
+/*.medium-link {
   color: #8bffd1;
 }
 
@@ -136,4 +155,4 @@ section {
 
 .github-link {
   color: #b499ff;
-}
+}*/

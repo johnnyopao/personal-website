@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "prettier": "^1.6.1",
     "reload": "^1.1.5"
   }
 }

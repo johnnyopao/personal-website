@@ -14,8 +14,6 @@ It's only for local development. With a dev server I can auto reload and serve u
 
 ## TODO
 * Add a short bio snippet
-* Add a hero header
-* Add links to github, and other social sites
 * Deploy script
   * Needs to invalidate cache
 * Configure naked domain
