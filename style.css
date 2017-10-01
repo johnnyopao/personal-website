@@ -73,20 +73,28 @@ section {
   border-top: 1px solid #bfbfbf;
 }
 
+.ub-link {
+  color: #0098db;
+}
+
+.ub-link:hover {
+  color: #00aaf4;
+}
+
 .hero {
   width: 100vw;
-  height: 350px;
+  min-height: 350px;
 }
 
 .left-pane {
-  flex-grow: 1;
-  width: 50vw;
+  width: 60vw;
   margin: 50px;
 }
 
 .right-pane {
-  flex-grow: 1;
-  width: 50vw;
+  width: 40vw;
+  background-image: url("/images/ocean.jpg");
+  background-size: cover;
   background-color: #a5eef3;
 }
 
@@ -137,22 +145,36 @@ section {
   padding: 0px 10px;
 }
 
-.icon-containers a:hover {
-  color: #fff;
+/* .icon-containers a:hover {
+  color: #575757;
+} */
+
+.medium-link:hover {
+  color: #48d29f;
 }
 
-/*.medium-link {
-  color: #8bffd1;
+.linkedin-link:hover {
+  color: #248ec6;
 }
 
-.linkedin-link {
-  color: #5bcfff;
+.instagram-link:hover {
+  color: #efab70;
 }
 
-.instagram-link {
-  color: #fff390;
+.github-link:hover {
+  color: #814ecb;
 }
 
-.github-link {
-  color: #b499ff;
-}*/
+@media only screen and (max-width: 600px) {
+  .right-pane {
+    display: none;
+  }
+
+  .left-pane {
+    width: 100vw;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
